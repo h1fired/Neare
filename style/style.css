@@ -6,37 +6,37 @@
 @font-face {
     font-family: "MaaxBold";
     src: url('../fonts/maax/maax-bold.eot');
-    src: url('../fonts/maax/maax-bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/maax/maax-bold.woff') format('woff'),
-    url('../fonts/maax/maax-bold.ttf') format('truetype');
+    src: url('../../fonts/maax/maax-bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/maax/maax-bold.woff') format('woff'),
+    url('../../fonts/maax/maax-bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MaaxRegular';
-    src: url('../fonts/maax/maax.eot');
-    src: url('../fonts/maax/maax.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/maax/maax.woff') format('woff'),
-    url('../fonts/maax/maax.ttf') format('truetype');
+    src: url('../../fonts/maax/maax.eot');
+    src: url('../../fonts/maax/maax.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/maax/maax.woff') format('woff'),
+    url('../../fonts/maax/maax.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MaaxItalic';
-    src: url('../fonts/maax/maax-italic.eot');
-    src: url('../fonts/maax/maax-italic.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/maax/maax-italic.woff') format('woff'),
-    url('/fonts/maax/maax-italic.ttf') format('truetype');
+    src: url('../../fonts/maax/maax-italic.eot');
+    src: url('../../fonts/maax/maax-italic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/maax/maax-italic.woff') format('woff'),
+    url('../../fonts/maax/maax-italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Futura';
-    src: url('../fonts/futuraweb/futur.ttf') format('truetype');
-    src: url('../fonts/futuraweb/futur.woff2') format('woff2');
+    src: url('../../fonts/futuraweb/futur.ttf') format('truetype');
+    src: url('../../fonts/futuraweb/futur.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: initial;
@@ -44,8 +44,8 @@
 
 @font-face {
     font-family: 'Futura Heavy';
-    src: url('../fonts/futuraweb/futura_heavy.ttf') format('truetype');
-    src: url('../fonts/futuraweb/futura_heavy.woff2') format('woff2');
+    src: url('../../fonts/futuraweb/futura_heavy.ttf') format('truetype');
+    src: url('../../fonts/futuraweb/futura_heavy.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: initial;
@@ -53,8 +53,8 @@
 
 @font-face {
     font-family: 'Futura Light';
-    src: url('../fonts/futuraweb/futura_light.ttf') format('truetype');
-    src: url('../fonts/futuraweb/futura_light.woff2') format('woff2');
+    src: url('../../fonts/futuraweb/futura_light.ttf') format('truetype');
+    src: url('../../fonts/futuraweb/futura_light.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: initial;
