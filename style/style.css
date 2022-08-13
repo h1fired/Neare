@@ -1,0 +1,550 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@font-face {
+    font-family: "MaaxBold";
+    src: url('/fonts/maax/maax-bold.eot');
+    src: url('/fonts/maax/maax-bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/maax/maax-bold.woff') format('woff'),
+    url('/fonts/maax/maax-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaaxRegular';
+    src: url('/fonts/maax/maax.eot');
+    src: url('/fonts/maax/maax.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/maax/maax.woff') format('woff'),
+    url('/fonts/maax/maax.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaaxItalic';
+    src: url('/fonts/maax/maax-italic.eot');
+    src: url('/fonts/maax/maax-italic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/maax/maax-italic.woff') format('woff'),
+    url('/fonts/maax/maax-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/fonts/futuraweb/futur.ttf') format('truetype');
+    src: url('/fonts/futuraweb/futur.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: initial;
+}
+
+@font-face {
+    font-family: 'Futura Heavy';
+    src: url('/fonts/futuraweb/futura_heavy.ttf') format('truetype');
+    src: url('/fonts/futuraweb/futura_heavy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: initial;
+}
+
+@font-face {
+    font-family: 'Futura Light';
+    src: url('/fonts/futuraweb/futura_light.ttf') format('truetype');
+    src: url('/fonts/futuraweb/futura_light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: initial;
+}
+
+/*DESIGN*/
+.bg_test{
+    background-color: #181818;
+    border-radius: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color: #000000;
+    --main-color: #f1fc56;
+    --node-swiper: #FFFFFF;
+    --font-maax: "MaaxBold";
+    --font-maax-reg: "MaaxRegular";
+    --font-maax-reg_itc: "MaaxItalic";
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+header{
+    display: block;
+    background-color: #000000;
+}
+
+/*Logo*/
+.logo_div{
+    
+    display: inline-block;
+    padding: 15px;
+    padding-left: 20px;
+    height: 60px;
+}
+
+.logo{
+    height: 100%;
+    
+}
+
+.logo_text{
+    padding: 5px;
+}
+
+.logo_animation{
+    animation-name: logo_rotation;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/*Topic Preview*/
+section{
+    display: block;
+}
+
+.section_preview{
+    position: relative;
+    background-color: #000000;
+    height: 400px;
+    max-height: 30%;
+    overflow: hidden;
+}
+
+.topic_preview{
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 500px;
+}
+
+.topic_main{
+    display: block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.black_back{
+    z-index: 3;
+}
+
+
+/*VIDEO DEMO*/
+.video_demo{
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.section_preview::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-family: var(--font-maax), sans-serif;
+    color: #F1F1F1;
+    font-size: 4em;
+}
+
+.topic_desc{
+    display: block;
+    width: 70%;
+    color: #F1F1F1;
+    font-family: "Futura Light", sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    
+}
+
+/*Video Preview*/
+.section_video_preview{
+    background-color: gray;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section_video_preview img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.video_preview{
+    width: 100%;
+    min-height: 300px;
+}
+
+/*About Shader CAPTION*/
+.shader_info_caption{
+    height: 120px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption_text{
+    font-family: 'Futura Heavy', sans-serif;
+    font-size: 1.1em;
+    color: var(--main-color);
+    
+}
+
+.main_think{
+    font-size: 2em;
+}
+
+
+/*About Shader INFO*/
+.item{
+    display: block;
+    margin: 15px;
+    margin-left: 55px;
+    padding: 10px;
+    padding-left: 10px;
+    margin-right: 60px;
+    float: left;
+   
+    padding-bottom: 25px;
+    background-color: #0E1612;
+    
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9BFF99;
+    
+}
+
+.item img{
+    display: block;
+    height: 200px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.3));
+}
+
+.shader_parameter_caption{
+    text-align: right;
+    margin-right: 5px;
+    color: #D4D4D4;
+    font-size: 1.2em;
+    font-family: var(--font-maax), sans-serif;
+    font-weight: 700;
+    
+}
+
+.shader_parameter{
+    padding-left: 5px;
+    display: block;
+    width: 100%;
+    color: #BABABA;
+    font-size: 0.9em;
+    font-family: var(--font-maax-reg), sans-serif;
+    font-weight: 300;
+    
+}
+
+.node_component{
+    width: 100%;
+    
+}
+
+.node_right_cap{
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 1.5em;
+    color: #F1F1F1;
+    font-family: var(--font-maax-reg), sans-serif;
+    
+}
+
+.node_right_desc{
+    margin-top: 35px;
+    font-size: 0.8em;
+    color: #F1F1F1;
+    font-family: var(--font-maax-reg), sans-serif;
+    
+}
+
+/*Node Swiper*/
+.node_swipper{
+    position: relative;
+    height: 100%;
+    background-color: #000000;
+}
+
+.swiper {
+    width: 100%;
+    height: 450px;
+}
+
+.swiper-slide{
+    font-size: 18px;
+    height: 100%;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet{
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 0.2rem !important;
+    background: #F1F1F1 !important;
+}
+
+.swiper-pagination-bullet-active{
+    width: 1.5rem !important;
+    background: #F1F1F1 !important;
+}
+
+.swiper-button-next{
+    color: var(--node-swiper) !important;
+}
+.swiper-button-prev{
+    color: var(--node-swiper) !important;
+}
+
+
+/*About shader in game*/
+.shader_info_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item_shader{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.item_shader_cap{
+    color: #EDEDED;
+    font-family: var(--font-maax-reg), sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.item_shader_desc{
+    color: #BABABA;
+    font-family: var(--font-maax-reg), sans-serif;
+    font-size: 1.1em;
+}
+
+.line_transition{
+    position: relative;
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.shader_optimize{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+.shader_optimize p{
+    text-align: center;
+    color: #BABABA;
+    font-family: var(--font-maax-reg_itc);
+    font-size: 0.9em;
+}
+
+.shader_render{
+    overflow: hidden;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.shader_render_img{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(var(--zoom), var(--zoom));
+    transition: transform 1s ease;
+
+}
+
+.shader_render_text{
+    position: absolute;
+    left: 0;
+    width: 300px;
+    margin: 60px;
+
+}
+
+.shader_commercial{
+    display: block;
+
+    position: relative;
+    color: #828282;
+    font-family: var(--font-maax-reg_itc), sans-serif;
+    width: 500px;
+    margin: 10px;
+    margin-left: auto;
+    font-size: 0.8em;
+}
+
+.shader_render:hover{
+    --zoom: 1.5;
+}
+
+footer{
+    padding-top: 25px;
+    height: 100px;
+    border-top: 1px solid;
+
+    border-image: linear-gradient(90deg, #000000, #f1fc56, #000000) 1;
+}
+
+.contact{
+    margin-right: 35px;
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.contact p{
+    color: #f1fc56;
+    font-family: var(--font-maax-reg);
+    font-size: 0.8em;
+}
+
+.foot_logo_pos{
+    margin-left: 35px;
+    position: absolute;
+    left: 0;
+}
+
+.margin_monkey{
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+.shader_node_bg{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+
+}
+
+.shader_node_bg img{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    margin-bottom: -100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   
+
+
+}
+
+/*ANIMATIONS*/
+@keyframes logo_rotation {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
