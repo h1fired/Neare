@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "MaaxBold";
-    src: url('../fonts/maax/maax-bold.eot');
+    src: url('../../fonts/maax/maax-bold.eot');
     src: url('../../fonts/maax/maax-bold.eot?#iefix') format('embedded-opentype'),
     url('../../fonts/maax/maax-bold.woff') format('woff'),
     url('../../fonts/maax/maax-bold.ttf') format('truetype');
